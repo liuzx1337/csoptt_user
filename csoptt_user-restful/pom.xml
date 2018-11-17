@@ -23,5 +23,14 @@
             <artifactId>csoptt_user-entity</artifactId>
             <version>1.0.0</version>
         </dependency>
+        <!-- Swagger-ui -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+        </dependency>
     </dependencies>
 </project>

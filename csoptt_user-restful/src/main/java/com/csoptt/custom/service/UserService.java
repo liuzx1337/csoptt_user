@@ -18,7 +18,7 @@ public class UserService {
      * 登录
      * @param loginVO
      * @return 向header中增加的token
-     * @author liuzixi
+     * @author qishao
      * date 2018-11-22
      */
     public String login(LoginVO loginVO) {

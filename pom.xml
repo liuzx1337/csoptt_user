@@ -83,6 +83,12 @@
                 <artifactId>mybatis-spring-boot-starter</artifactId>
                 <version>${mybatis.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>com.csoptt</groupId>
+                <artifactId>csoptt_config-properties</artifactId>
+                <version>1.0.3</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>

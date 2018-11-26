@@ -20,7 +20,7 @@ import java.util.Map;
 /**
  * Druid连接池配置
  *
- * @author liuzixi
+ * @author qishao
  * @date 2018-11-24
  */
 @Configuration

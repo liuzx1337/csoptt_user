@@ -16,8 +16,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
-
 /**
  * 用户模块restController
  * 此controller主要包含对当前用户修改的功能
@@ -65,6 +63,13 @@ public class UserController extends BaseController {
     @PostMapping("/update")
     @ApiOperation(value = "|用户模块|编辑个人用户信息")
     public ResponseMessage updateUser(@RequestBody UserVO userVO) {
+
+        return Result.success();
+    }
+
+    @GetMapping("/getEmailValidCode")
+    @ApiOperation(value = "|用户模块|获取邮箱验证码")
+    public ResponseMessage checkEmail() {
 
         return Result.success();
     }

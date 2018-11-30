@@ -54,6 +54,19 @@ public class UserController extends BaseController {
     }
 
     /**
+     * |用户模块|登出
+     * @return
+     * @author qishao
+     * date 2018-11-30
+     */
+    @PostMapping("/logout")
+    @ApiOperation(value = "|用户模块|登出")
+    public ResponseMessage logout() {
+
+        return Result.success();
+    }
+
+    /**
      * |用户模块|编辑用户信息
      * @param userVO
      * @return
